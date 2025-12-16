@@ -1,21 +1,29 @@
 buildscript {
     ext {
+        // Build Config for Android 16 (Baklava/SDK 36)
         buildToolsVersion = "36.0.0"
         minSdkVersion = 24
         compileSdkVersion = 36
         targetSdkVersion = 36
+
+        // CRITICAL: NDK for RN 0.82
         ndkVersion = "27.1.12297006"
-        kotlinVersion = "2.1.20"
+
+        // Kotlin for RN 0.82
+        kotlinVersion = "2.0.21"
     }
+
     repositories {
         google()
         mavenCentral()
     }
-    dependencies {
-        classpath("com.android.tools.build:gradle")
-        classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
-    }
+
+   dependencies {
+    classpath("com.android.tools.build:gradle:8.7.3")
+
+    classpath("com.facebook.react:react-native-gradle-plugin")
+    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21")
+}
 }
 
 apply plugin: "com.facebook.react.rootproject"
