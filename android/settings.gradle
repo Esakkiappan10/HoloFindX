@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pluginManagement {
     repositories {
         google()
@@ -19,3 +20,9 @@ extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
 rootProject.name = 'HoloFindX'
 include ':app'
 includeBuild("../node_modules/@react-native/gradle-plugin")
+=======
+rootProject.name = 'HoloFindX'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+>>>>>>> 557c779 (Initial commit)
