@@ -12,7 +12,16 @@ const Stack = createStackNavigator();
 export default function AppNavigator() {
   return (
     <NavigationContainer>
+<<<<<<< HEAD
       <Stack.Navigator screenOptions={{ headerShown: false }}>
+=======
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false,
+          animationEnabled: true
+        }}
+      >
+>>>>>>> 93febe5 (phase-2)
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Objects" component={ObjectListScreen} />
         <Stack.Screen name="AR" component={ARScreen} />

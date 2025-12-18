@@ -24,14 +24,22 @@ buildscript {
         compileSdkVersion = 33
         targetSdkVersion = 33
 
-        // We use NDK 23 which has both M1 support and is the side-by-side NDK version from AGP.
+        // NDK
         ndkVersion = "23.1.7779620"
+
+        // Kotlin (RN 0.72 compatible)
+        kotlinVersion = "1.9.22"
     }
+<<<<<<< HEAD
 >>>>>>> 557c779 (Initial commit)
+=======
+
+>>>>>>> 93febe5 (phase-2)
     repositories {
         google()
         mavenCentral()
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
    dependencies {
@@ -44,9 +52,30 @@ buildscript {
 
 apply plugin: "com.facebook.react.rootproject"
 =======
+=======
+
+>>>>>>> 93febe5 (phase-2)
     dependencies {
+        // Android Gradle Plugin
         classpath("com.android.tools.build:gradle")
+
+        // React Native Gradle Plugin
         classpath("com.facebook.react:react-native-gradle-plugin")
+
+        // Kotlin Gradle Plugin
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
+    }
+}
+
+/**
+ * ✅ FORCE ALL KOTLIN (including node_modules) TO JVM 11
+ * This fixes the "Inconsistent JVM-target compatibility" error
+ */
+subprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = "11"
+        }
     }
 }
 >>>>>>> 557c779 (Initial commit)

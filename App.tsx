@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import AppNavigator from "./src/navigation/AppNavigation";
 
@@ -13,55 +14,16 @@ export default function App() {
  * @format
  */
 
+=======
+import 'react-native-gesture-handler';
+>>>>>>> 93febe5 (phase-2)
 import React from 'react';
-import type {PropsWithChildren} from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
+import AppNavigator from './src/navigation/AppNavigation';
 
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
-
-function Section({children, title}: SectionProps): JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-  return (
-    <View style={styles.sectionContainer}>
-      <Text
-        style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
-        ]}>
-        {title}
-      </Text>
-      <Text
-        style={[
-          styles.sectionDescription,
-          {
-            color: isDarkMode ? Colors.light : Colors.dark,
-          },
-        ]}>
-        {children}
-      </Text>
-    </View>
-  );
+export default function App() {
+  return <AppNavigator />;
 }
+<<<<<<< HEAD
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -125,3 +87,5 @@ const styles = StyleSheet.create({
 
 export default App;
 >>>>>>> 557c779 (Initial commit)
+=======
+>>>>>>> 93febe5 (phase-2)
