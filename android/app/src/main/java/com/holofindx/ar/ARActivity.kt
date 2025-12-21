@@ -22,7 +22,10 @@ class ARActivity : AppCompatActivity(), GLSurfaceView.Renderer {
 
     private lateinit var surfaceView: GLSurfaceView
     private var session: Session? = null
+
     private val backgroundRenderer = BackgroundRenderer()
+    private val boxRenderer = BoundingBoxRenderer()
+    private val pointCloudRenderer = PointCloudRenderer()
 
     private var viewportWidth = 0
     private var viewportHeight = 0
@@ -139,79 +142,97 @@ class ARActivity : AppCompatActivity(), GLSurfaceView.Renderer {
     }
 
     override fun onDrawFrame(gl: GL10?) {
-        GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT or GLES20.GL_DEPTH_BUFFER_BIT)
+    GLES20.glClear(GLES20.GL_COLOR_BUFFER_BIT or GLES20.GL_DEPTH_BUFFER_BIT)
 
-        val session = session ?: return
+    val session = session ?: return
 
-        // 🔑 Correct orientation & aspect
-        session.setDisplayGeometry(
-            when (windowManager.defaultDisplay.rotation) {
-                Surface.ROTATION_90 -> 90
-                Surface.ROTATION_180 -> 180
-                Surface.ROTATION_270 -> 270
-                else -> 0
-            },
-            viewportWidth,
-            viewportHeight
-        )
+    session.setDisplayGeometry(
+        when (windowManager.defaultDisplay.rotation) {
+            Surface.ROTATION_90 -> 90
+            Surface.ROTATION_180 -> 180
+            Surface.ROTATION_270 -> 270
+            else -> 0
+        },
+        viewportWidth,
+        viewportHeight
+    )
 
-        // 🔑 Set camera texture ONCE
-        if (!isTextureSet) {
-            session.setCameraTextureName(backgroundRenderer.getTextureId())
-            isTextureSet = true
+    if (!isTextureSet) {
+        session.setCameraTextureName(backgroundRenderer.getTextureId())
+        isTextureSet = true
+    }
+
+    try {
+        val frame = session.update()
+
+        // 🔹 POINT CLOUD
+        val pointCloud = frame.acquirePointCloud()
+        pointCloudRenderer.update(pointCloud)
+        pointCloud.release()
+
+        // 🔹 OBJECT DETECTION (unchanged)
+        frameCounter++
+        if (frameCounter % 15 == 0 && !isDetecting) {
+            detectObjects(frame)
         }
 
-        try {
-            val frame = session.update()
+        // 🔹 RENDER ORDER
+        backgroundRenderer.draw(frame)
+        pointCloudRenderer.draw()
+        boxRenderer.draw(viewportWidth, viewportHeight)
 
-            // 🔥 OBJECT DETECTION (every 15 frames)
-            frameCounter++
-            if (frameCounter % 15 == 0 && !isDetecting) {
-                detectObjects(frame)
-            }
-
-            backgroundRenderer.draw(frame)
-
-        } catch (_: Exception) {}
-    }
+    } catch (_: Exception) {}
+}
 
     // ======================
     // OBJECT DETECTION
     // ======================
 
     private fun detectObjects(frame: Frame) {
-        val image: Image = try {
-            frame.acquireCameraImage()
-        } catch (e: Exception) {
-            return
-        }
-
-        isDetecting = true
-
-        val inputImage = InputImage.fromMediaImage(
-            image,
-            getRotationDegrees()
-        )
-
-        ObjectDetectorHelper.detector.process(inputImage)
-            .addOnSuccessListener { objects ->
-                for (obj in objects) {
-                    val label = obj.labels.firstOrNull()?.text ?: "Unknown"
-                    val confidence = obj.labels.firstOrNull()?.confidence ?: 0f
-                    val box = obj.boundingBox
-
-                    // 🔍 LOG RESULT (for now)
-                    android.util.Log.d(
-                        "AR_OBJECT",
-                        "Detected: $label ($confidence) at $box"
-                    )
-                }
-            }
-            .addOnCompleteListener {
-                image.close()       // 🔴 MUST close
-                isDetecting = false
-            }
+    val image: Image = try {
+        frame.acquireCameraImage()
+    } catch (e: Exception) {
+        return
     }
+
+    isDetecting = true
+
+    // 🚨 CRITICAL: rotation MUST be 0 for ARCore camera image
+    val inputImage = InputImage.fromMediaImage(image, 0)
+
+    ObjectDetectorHelper.detector.process(inputImage)
+        .addOnSuccessListener { objects ->
+
+            android.util.Log.d(
+                "AR_DEBUG",
+                "Detected objects count = ${objects.size}"
+            )
+
+            val results = objects.map {
+                DetectedObjectBox(
+                    rect = it.boundingBox,
+                    label = if (it.labels.isNotEmpty())
+                        it.labels[0].text
+                    else
+                        "Object",
+                    confidence = if (it.labels.isNotEmpty())
+                        it.labels[0].confidence
+                    else
+                        1f
+                )
+            }
+
+            boxRenderer.updateBoxes(results)
+        }
+        .addOnFailureListener { e ->
+            android.util.Log.e("AR_DEBUG", "Detection failed", e)
+        }
+        .addOnCompleteListener {
+            image.close()
+            isDetecting = false
+        }
+}
+
 
     private fun getRotationDegrees(): Int {
         return when (windowManager.defaultDisplay.rotation) {

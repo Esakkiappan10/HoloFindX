@@ -10,6 +10,7 @@ object ObjectDetectorHelper {
             .setDetectorMode(ObjectDetectorOptions.STREAM_MODE)
             .enableMultipleObjects()
             .enableClassification()
+            .setClassificationConfidenceThreshold(0.2f)
             .build()
 
         ObjectDetection.getClient(options)
