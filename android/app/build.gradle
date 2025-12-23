@@ -21,11 +21,8 @@ android {
 apply plugin: "com.facebook.react"
 apply plugin: "kotlin-android"
 
-/**
- * React Native configuration
- */
 react {
-    // Default config is fine
+    // Default config
 }
 
 def enableProguardInReleaseBuilds = false
@@ -49,6 +46,7 @@ android {
         versionCode 1
         versionName "1.0"
 <<<<<<< HEAD
+<<<<<<< HEAD
         multiDexEnabled true
     }
 
@@ -60,6 +58,13 @@ android {
     /**
      * ✅ FORCE JAVA 11 (VERY IMPORTANT)
      */
+=======
+        
+        // Enable vector drawables
+        vectorDrawables.useSupportLibrary = true
+    }
+
+>>>>>>> e3a5caf (phase3)
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
@@ -85,6 +90,8 @@ android {
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
+            minifyEnabled false
+            debuggable true
         }
         release {
 <<<<<<< HEAD
@@ -111,9 +118,14 @@ dependencies {
 >>>>>>> 93febe5 (phase-2)
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
-            proguardFiles getDefaultProguardFile("proguard-android.txt"),
-                    "proguard-rules.pro"
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
+    }
+    
+    // Optimize for ML models
+    aaptOptions {
+        noCompress "tflite"
+        noCompress "lite"
     }
 }
 
@@ -136,9 +148,26 @@ dependencies {
         implementation jscFlavor
     }
 
-    // ✅ ARCore
+    // ✅ ARCore - Latest stable version
     implementation "com.google.ar:core:1.46.0"
-    implementation "com.google.mlkit:object-detection:17.0.1"
+    
+    // ✅ ML Kit Object Detection - LATEST VERSION for best accuracy
+    implementation "com.google.mlkit:object-detection:17.0.2"
+    
+    // ✅ ML Kit Object Detection Custom - For better custom models support
+    implementation "com.google.mlkit:object-detection-custom:17.0.2"
+    
+    // ✅ Image Labeling for additional context
+    implementation "com.google.mlkit:image-labeling:17.0.8"
+    
+    // ✅ TensorFlow Lite - Latest for better inference
+    implementation "org.tensorflow:tensorflow-lite:2.14.0"
+    implementation "org.tensorflow:tensorflow-lite-gpu:2.14.0"
+    implementation "org.tensorflow:tensorflow-lite-support:0.4.4"
+    
+    // ✅ Coroutines for better async processing
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
 }
 <<<<<<< HEAD
 =======
@@ -148,5 +177,9 @@ apply from: file("../../node_modules/@react-native-community/cli-platform-androi
 >>>>>>> 557c779 (Initial commit)
 =======
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
+<<<<<<< HEAD
 applyNativeModulesAppBuildGradle(project)
 >>>>>>> 93febe5 (phase-2)
+=======
+applyNativeModulesAppBuildGradle(project)
+>>>>>>> e3a5caf (phase3)
