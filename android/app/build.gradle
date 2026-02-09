@@ -21,18 +21,18 @@ android {
 apply plugin: "com.facebook.react"
 apply plugin: "kotlin-android"
 
-react {
-    // Default config
-}
-
-def enableProguardInReleaseBuilds = false
-def jscFlavor = 'org.webkit:android-jsc:+'
-
 android {
     namespace "com.holofindx"
 
     ndkVersion rootProject.ext.ndkVersion
-    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileSdk 34
+
+    /**
+     * REQUIRED for AGP 8+ (React Native injects BuildConfig fields internally)
+     */
+    buildFeatures {
+        buildConfig true
+    }
 
 <<<<<<< HEAD
     namespace "com.holofindx"
@@ -41,10 +41,11 @@ android {
 >>>>>>> 93febe5 (phase-2)
     defaultConfig {
         applicationId "com.holofindx"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdk rootProject.ext.minSdkVersion
+        targetSdk 34
         versionCode 1
         versionName "1.0"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         multiDexEnabled true
@@ -62,6 +63,17 @@ android {
         
         // Enable vector drawables
         vectorDrawables.useSupportLibrary = true
+=======
+
+        vectorDrawables {
+            useSupportLibrary true
+        }
+
+        // Limit ABIs for smaller APK (recommended for AR + ML)
+        ndk {
+            abiFilters "arm64-v8a", "armeabi-v7a"
+        }
+>>>>>>> 2fcb6ff (somedone)
     }
 
 >>>>>>> e3a5caf (phase3)
@@ -70,6 +82,7 @@ android {
         targetCompatibility JavaVersion.VERSION_11
     }
 
+<<<<<<< HEAD
 >>>>>>> 93febe5 (phase-2)
     signingConfigs {
         debug {
@@ -77,7 +90,31 @@ android {
             storePassword 'android'
             keyAlias 'androiddebugkey'
             keyPassword 'android'
+=======
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    /**
+     * Packaging rules (safe for Kotlin + TensorFlow + ML Kit)
+     */
+    packagingOptions {
+        resources {
+            excludes += [
+                "META-INF/DEPENDENCIES",
+                "META-INF/LICENSE",
+                "META-INF/LICENSE.txt",
+                "META-INF/NOTICE",
+                "META-INF/NOTICE.txt",
+                "META-INF/*.kotlin_module"
+            ]
+>>>>>>> 2fcb6ff (somedone)
         }
+        // ✅ FIX: Prevent duplicate files from TensorFlow libraries
+        pickFirst 'lib/armeabi-v7a/libtensorflowlite_jni.so'
+        pickFirst 'lib/arm64-v8a/libtensorflowlite_jni.so'
+        pickFirst 'lib/x86/libtensorflowlite_jni.so'
+        pickFirst 'lib/x86_64/libtensorflowlite_jni.so'
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,11 +126,11 @@ android {
 >>>>>>> 93febe5 (phase-2)
     buildTypes {
         debug {
-            signingConfig signingConfigs.debug
-            minifyEnabled false
             debuggable true
         }
+
         release {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             signingConfig signingConfigs.debug
@@ -119,19 +156,36 @@ dependencies {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+=======
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android.txt"),
+                "proguard-rules.pro"
+            )
+>>>>>>> 2fcb6ff (somedone)
         }
     }
-    
-    // Optimize for ML models
+
+    /**
+     * Keep ML models uncompressed (required for TensorFlow Lite)
+     */
     aaptOptions {
         noCompress "tflite"
-        noCompress "lite"
+    }
+
+    // ✅ FIX: Suppress namespace warnings from TensorFlow libraries
+    lint {
+        checkReleaseBuilds false
+        abortOnError false
+        disable 'MissingApplicationIcon', 'DuplicatePlatformClasses'
     }
 }
 
 dependencies {
     implementation("com.facebook.react:react-android")
 
+<<<<<<< HEAD
     debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}")
     debugImplementation("com.facebook.flipper:flipper-network-plugin:${FLIPPER_VERSION}") {
         exclude group: "com.squareup.okhttp3", module: "okhttp"
@@ -142,40 +196,61 @@ dependencies {
 =======
 
 >>>>>>> 93febe5 (phase-2)
+=======
+    // JS engine
+>>>>>>> 2fcb6ff (somedone)
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
-        implementation jscFlavor
+        implementation("org.webkit:android-jsc:+")
     }
 
-    // ✅ ARCore - Latest stable version
+    // ARCore
     implementation "com.google.ar:core:1.46.0"
-    
-    // ✅ ML Kit Object Detection - LATEST VERSION for best accuracy
-    implementation "com.google.mlkit:object-detection:17.0.2"
-    
-    // ✅ ML Kit Object Detection Custom - For better custom models support
-    implementation "com.google.mlkit:object-detection-custom:17.0.2"
-    
-    // ✅ Image Labeling for additional context
-    implementation "com.google.mlkit:image-labeling:17.0.8"
-    
-    // ✅ TensorFlow Lite - Latest for better inference
+
+    // ✅ FIXED: TensorFlow Lite - Simplified dependencies (removes duplicate namespace warnings)
+    // ✅ CORRECT - Don't exclude anything!
     implementation "org.tensorflow:tensorflow-lite:2.14.0"
     implementation "org.tensorflow:tensorflow-lite-gpu:2.14.0"
     implementation "org.tensorflow:tensorflow-lite-support:0.4.4"
+
+    // Kotlin standard library
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.22"
     
-    // ✅ Coroutines for better async processing
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    // Kotlin Coroutines (includes core)
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3"
+
+    // AndroidX Lifecycle
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    
+    // AndroidX Core (required for Kotlin Android)
+    implementation "androidx.core:core-ktx:1.12.0"
+    implementation "androidx.appcompat:appcompat:1.6.1"
 }
 <<<<<<< HEAD
 =======
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
 >>>>>>> 557c779 (Initial commit)
 =======
+=======
+// ✅ FIX: Force specific TensorFlow versions to avoid conflicts
+configurations.all {
+    resolutionStrategy {
+        force "org.tensorflow:tensorflow-lite:2.14.0"
+        force "org.tensorflow:tensorflow-lite-gpu:2.14.0"
+        force "org.tensorflow:tensorflow-lite-support:0.4.4"
+    }
+}
+/**
+ * React Native autolinking
+ */
+>>>>>>> 2fcb6ff (somedone)
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
 <<<<<<< HEAD
 applyNativeModulesAppBuildGradle(project)

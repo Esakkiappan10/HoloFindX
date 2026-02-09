@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useEffect, useState, useRef, useCallback } from "react";
 import { View, Text, StyleSheet, TouchableOpacity, Alert, Linking, AppState } from "react-native";
 import { Camera, useCameraDevice, useCameraPermission } from "react-native-vision-camera";
@@ -110,6 +111,9 @@ export default function ARScreen({ route, navigation }) {
       </View>
 =======
 import React from "react";
+=======
+import React, { useState } from "react";
+>>>>>>> 2fcb6ff (somedone)
 import {
   View,
   Text,
@@ -117,24 +121,131 @@ import {
   TouchableOpacity,
   NativeModules,
   StatusBar,
-  Platform
+  Platform,
+  PermissionsAndroid,
+  Alert,
+  ActivityIndicator
 } from "react-native";
 
 const { IntentLauncher } = NativeModules;
 
 export default function ARScreen({ route }) {
   const object = route?.params?.object;
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleStartAR = () => {
-  console.log("Platform:", Platform.OS);
-  console.log("IntentLauncher:", IntentLauncher);
+  /**
+   * ✅ FIXED: Proper permission request before launching AR
+   */
+  const requestCameraPermission = async () => {
+    try {
+      if (Platform.OS === 'android') {
+        const granted = await PermissionsAndroid.request(
+          PermissionsAndroid.PERMISSIONS.CAMERA,
+          {
+            title: "Camera Permission Required",
+            message: "HoloFindX needs camera access to detect objects in AR mode.",
+            buttonPositive: "Allow",
+            buttonNegative: "Deny",
+          }
+        );
 
-  if (Platform.OS === "android" && IntentLauncher?.startActivity) {
-    IntentLauncher.startActivity("com.holofindx.ar.ARActivity");
-  } else {
-    console.warn("IntentLauncher not available");
-  }
-};
+        console.log("📷 Camera permission result:", granted);
+        
+        if (granted === PermissionsAndroid.RESULTS.GRANTED) {
+          console.log("✅ Camera permission GRANTED");
+          return true;
+        } else {
+          console.log("❌ Camera permission DENIED");
+          Alert.alert(
+            "Permission Required",
+            "Camera permission is required to use AR mode. Please enable it in app settings.",
+            [
+              { text: "Cancel", style: "cancel" },
+              { 
+                text: "Open Settings", 
+                onPress: () => {
+                  // Open app settings
+                  if (NativeModules.OpenAppSettingsModule) {
+                    NativeModules.OpenAppSettingsModule.openSettings();
+                  }
+                }
+              }
+            ]
+          );
+          return false;
+        }
+      }
+      return true; // iOS doesn't need runtime permission for camera in this context
+    } catch (err) {
+      console.error("❌ Permission request error:", err);
+      return false;
+    }
+  };
+
+  /**
+   * ✅ FIXED: Launch AR with permission check
+   */
+  const handleStartAR = async () => {
+    setIsLoading(true);
+    
+    try {
+      console.log("🚀 Starting AR Activity...");
+      console.log("Platform:", Platform.OS);
+      console.log("IntentLauncher available:", !!IntentLauncher);
+
+      // 1. Check platform
+      if (Platform.OS !== "android") {
+        Alert.alert("Not Supported", "AR mode is only available on Android devices.");
+        setIsLoading(false);
+        return;
+      }
+
+      // 2. Check if IntentLauncher module exists
+      if (!IntentLauncher) {
+        console.error("❌ IntentLauncher module not found!");
+        Alert.alert(
+          "Error",
+          "Native module not found. Please rebuild the app.",
+          [{ text: "OK" }]
+        );
+        setIsLoading(false);
+        return;
+      }
+
+      // 3. Request camera permission
+      const hasPermission = await requestCameraPermission();
+      if (!hasPermission) {
+        console.log("⚠️ Permission not granted, aborting AR launch");
+        setIsLoading(false);
+        return;
+      }
+
+      // 4. Launch AR Activity
+      console.log("🎯 Launching ARActivity...");
+      
+      if (IntentLauncher.launchARActivity) {
+        // Use convenience method if available
+        await IntentLauncher.launchARActivity();
+      } else if (IntentLauncher.startActivity) {
+        // Use generic method
+        await IntentLauncher.startActivity("com.holofindx.ar.ARActivity");
+      } else {
+        throw new Error("No launch method available");
+      }
+
+      console.log("✅ AR Activity launched successfully");
+      
+    } catch (error) {
+      console.error("❌ Failed to launch AR:", error);
+      Alert.alert(
+        "Error",
+        `Failed to start AR mode: ${error.message}`,
+        [{ text: "OK" }]
+      );
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <View style={styles.container}>
@@ -144,7 +255,7 @@ export default function ARScreen({ route }) {
       <View style={styles.header}>
         <Text style={styles.title}>AR Finder</Text>
         <Text style={styles.subtitle}>
-          Augmented Reality Object Search
+          Augmented Reality Object Detection
         </Text>
       </View>
 
@@ -156,16 +267,42 @@ export default function ARScreen({ route }) {
         </View>
       )}
 
+      {/* Status Indicator */}
+      {isLoading && (
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color="#4f7cff" />
+          <Text style={styles.loadingText}>Starting AR Camera...</Text>
+        </View>
+      )}
+
       {/* Action Button */}
-      <TouchableOpacity style={styles.button} onPress={handleStartAR}>
-        <Text style={styles.buttonText}>Start AR Camera</Text>
+      <TouchableOpacity 
+        style={[styles.button, isLoading && styles.buttonDisabled]} 
+        onPress={handleStartAR}
+        disabled={isLoading}
+      >
+        <Text style={styles.buttonText}>
+          {isLoading ? "Starting..." : "🎯 Start AR Camera"}
+        </Text>
       </TouchableOpacity>
 
+<<<<<<< HEAD
       {/* Footer Hint */}
       <Text style={styles.hint}>
         Move your phone slowly for best results
       </Text>
 >>>>>>> 93febe5 (phase-2)
+=======
+      {/* Footer Hints */}
+      <View style={styles.footer}>
+        <Text style={styles.hint}>
+          📱 Move your phone slowly for best results
+        </Text>
+        <Text style={styles.hint}>
+          💡 Ensure good lighting conditions
+        </Text>
+      </View>
+>>>>>>> 2fcb6ff (somedone)
     </View>
   );
 }
@@ -317,6 +454,17 @@ const styles = StyleSheet.create({
     fontWeight: "600"
   },
 
+  loadingContainer: {
+    alignItems: "center",
+    marginVertical: 20
+  },
+
+  loadingText: {
+    color: "#9ca3af",
+    fontSize: 14,
+    marginTop: 12
+  },
+
   button: {
     width: "100%",
     backgroundColor: "#4f7cff",
@@ -330,16 +478,31 @@ const styles = StyleSheet.create({
     elevation: 8
   },
 
+  buttonDisabled: {
+    backgroundColor: "#334155",
+    opacity: 0.6
+  },
+
   buttonText: {
     color: "#ffffff",
     fontSize: 18,
     fontWeight: "600"
   },
 
+  footer: {
+    alignItems: "center",
+    marginBottom: 10
+  },
+
   hint: {
     color: "#6b7280",
     fontSize: 13,
+<<<<<<< HEAD
     marginBottom: 10
 >>>>>>> 93febe5 (phase-2)
+=======
+    marginVertical: 4,
+    textAlign: "center"
+>>>>>>> 2fcb6ff (somedone)
   }
 });

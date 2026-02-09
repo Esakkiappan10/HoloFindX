@@ -11,7 +11,7 @@ import {
 } from "react-native";
 >>>>>>> 93febe5 (phase-2)
 
-export default function SettingsScreen() {
+export default function SettingsScreen({ navigation }) {
   return (
     <View style={styles.container}>
 <<<<<<< HEAD
@@ -36,6 +36,14 @@ export default function SettingsScreen() {
         <SettingItem title="Permissions" description="Camera & AR access" />
         <SettingItem title="About" description="App version & credits" />
       </View>
+
+      {/* Back Button */}
+      <TouchableOpacity
+        style={styles.backButton}
+        onPress={() => navigation.goBack()}
+      >
+        <Text style={styles.backText}>← Back</Text>
+      </TouchableOpacity>
 
       {/* Footer */}
       <Text style={styles.footer}>
@@ -135,6 +143,17 @@ const styles = StyleSheet.create({
     color: "#4f7cff",
     fontSize: 22,
     fontWeight: "600"
+  },
+
+  /* Back Button */
+  backButton: {
+    paddingVertical: 14,
+    alignItems: "center"
+  },
+
+  backText: {
+    color: "#4f7cff",
+    fontSize: 16
   },
 
   /* Footer */

@@ -1,0 +1,964 @@
+﻿--------- beginning of main
+02-09 18:07:42.706  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+--------- beginning of system
+02-09 18:07:42.707  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832121,828619)} caps=------ always=true idle=true
+02-09 18:07:42.707  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:42.707  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:42.707  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832121,828619)} caps=------ always=true idle=true
+02-09 18:07:42.707  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:42.707  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:42.709  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:43.712  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832123,828619)} caps=------ always=true idle=true
+02-09 18:07:43.712  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:43.712  1918  6248 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:43.712  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:43.712  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832123,828619)} caps=------ always=true idle=true
+02-09 18:07:43.712  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:43.712  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:43.714  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:44.218  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:07:44.480  1169 14813 I sensors-hal: handle_sns_std_sensor_event:57, light_event: ts=87266984695774, lux: 15.2, extra_info=515 
+02-09 18:07:44.686  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:44.701  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:44.701  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:44.701  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:44.716  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:44.716  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832125,828619)} caps=------ always=true idle=true
+02-09 18:07:44.717  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:44.717  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:44.717  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832125,828619)} caps=------ always=true idle=true
+02-09 18:07:44.717  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:44.717  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:44.719  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:44.872  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:45.228  8642 10212 D TrafficManageService: onThresholdReached: activeSlotNum= 0
+02-09 18:07:45.230  8642 10212 D TrafficManageService-TrafficSimManager: notifyByNetChange:0, gooooo
+02-09 18:07:45.263  8642 10212 D TrafficManageService-TrafficSimManager: getMonthDataUsageUsed: new_get = 33216777935
+02-09 18:07:45.263  8642 10212 D TrafficManageService-TrafficSimManager: checkNormalTrafficStatus: -1,used:33216777935
+02-09 18:07:45.264  8642 10212 D TrafficManageService: updateDateUsageUpdate: smartDualSimSettings = 0
+02-09 18:07:45.313  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87267819 mSleepTimeMs=49953105 mIdleTimeMs=889238 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955303, 1134138, 559775, 657517],mRxTimeMs=34836509}]}
+02-09 18:07:45.314  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:07:45.314  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87267819 mSleepTimeMs=49953105 mIdleTimeMs=889238 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955303, 1134138, 559775, 657517],mRxTimeMs=34836509}]}
+02-09 18:07:45.721  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832127,828619)} caps=------ always=true idle=true
+02-09 18:07:45.721  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:45.721  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:45.721  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:45.722  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832127,828619)} caps=------ always=true idle=true
+02-09 18:07:45.722  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:45.722  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:45.723  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:46.315  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:46.316  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:46.316  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:46.316  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:46.316  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:46.316  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:46.316  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:46.317  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:46.326  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:46.326  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:46.326  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:46.487  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:46.502   661   800 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007cccbe2da0 will be dropped but finished with status UNKNOWN_TRANSACTION
+02-09 18:07:46.504  1918  9593 I SmartPower: com.android.vending:background/10164(32025): idle->background(72082ms) R(service unbind com.android.vending/com.google.frameworks.client.data.android.server.play.BackgroundProcessEndpointService) adj=0.
+02-09 18:07:46.504  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10164, uidState = 10
+02-09 18:07:46.507  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10164, uidState = 19
+02-09 18:07:46.726  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:46.726  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832132,828619)} caps=------ always=true idle=true
+02-09 18:07:46.726  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:46.726  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:46.726  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832132,828619)} caps=------ always=true idle=true
+02-09 18:07:46.726  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:46.726  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:46.728  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:47.025  3990  3990 D DynamicService:  ACTION_BATTERY_CHANGED change,USB plug = 2
+02-09 18:07:47.025  3990  3990 D DynamicService_WifiBt:  ACTION_BATTERY_CHANGED change,USB plug = 2
+02-09 18:07:47.028  1918  1918 D UiModeManager: updateConfigurationLocked: mDockState=0; mCarMode=false; mCar=false; mPowerSave=false; mOverrideNightModeOn=false; mOverrideNightModeOff=false; mComputedNightMode=true; mNightMode=2; uiMode=33
+02-09 18:07:47.029  3950  3950 D DeviceStatisticsService: onReceive: action= android.intent.action.BATTERY_CHANGED
+02-09 18:07:47.030  8642  8642 I PowerUtils: getSurfaceTemprature temp: 38
+02-09 18:07:47.030  8642  8642 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+02-09 18:07:47.030 10399 10835 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 92, status = 2, level = 92, plug = 2, scale = 100
+02-09 18:07:47.031 10399 11917 D PowerKeeper.Thermal: mBatteryTemperature: 37
+02-09 18:07:47.031  3950  3950 V DeviceStatisticsService: chargerType=2 batteryLevel=92 totalBatteryCapacity=3207600
+02-09 18:07:47.031  3950  3950 D DeviceInfoHidlClient: isRadioOn()=true
+02-09 18:07:47.031  3950  3950 I DeviceInfoHidlClient: isPowerInfoNeverSent=false batteryLevel=92 batteryLevelIndex=3 chargingMode=2 totalCapacity=3207600 powerSaveMode=false
+02-09 18:07:47.032  8642  8642 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 92 mBatteryLevel 92 temperature 370
+02-09 18:07:47.032  8642  8642 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature∩╝Ü37,plugType:2
+02-09 18:07:47.033  8642 10902 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+02-09 18:07:47.035  1316  1337 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/night_charging value = 0
+02-09 18:07:47.035  8642 10902 I ChargeProtectionUtils: getNightChargingState: 0
+02-09 18:07:47.317  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:47.318  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:47.319  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:47.319  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:47.319  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:47.319  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:47.319  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:47.319  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:07:47.328  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:47.328  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:47.328  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:47.491  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:47.524  1918  2382 I SmartPower: com.miui.android.fashiongallery/10223(31407): idle->background(56983ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=915.
+02-09 18:07:47.524  1918  2382 I SmartPower: com.spotify.music/10331(31749): idle->background(59388ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=250.
+02-09 18:07:47.731  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:47.732  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832134,828619)} caps=------ always=true idle=true
+02-09 18:07:47.732  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:47.732  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:47.732  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832134,828619)} caps=------ always=true idle=true
+02-09 18:07:47.732  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:47.732  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:47.734  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:47.734  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10164, uidState = 19
+02-09 18:07:48.281  1918  9593 W ProcessStats: Tracking association SourceState{2b4d12c com.miui.securitycenter/1000 BFgs #181902} whose proc state 4 is better than process ProcessState{3b092a2 com.miui.securitycenter.remote/1000 pkg=com.miui.securitycenter} proc state 8 (41 skipped)
+02-09 18:07:48.322  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:48.323  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:48.324  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:48.324  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:48.324  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:48.324  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:48.324  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:48.324  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:48.328  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:48.328  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:48.328  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:48.449  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10210, uidState = 19
+02-09 18:07:48.491  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:48.689  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:48.698  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:48.699  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:48.699  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:48.736  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832137,828619)} caps=------ always=true idle=true
+02-09 18:07:48.736  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:48.737  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:48.737  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:48.737  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832137,828619)} caps=------ always=true idle=true
+02-09 18:07:48.737  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:48.737  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:48.739  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:48.873  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:49.019  1918  3977 D SLM-SRV-SLAService: checktemp temperature = 38666 temperature_average = 38876 isPerformanceMode = false thermal_enable_slm = true
+02-09 18:07:49.439  1918  2921 D AlarmManager: mBroadcastRefCount -> 1
+02-09 18:07:49.442  1918  1918 D ActivityManager: checkAllowBackground: uid=1000 pkg=android rec=UidRecord{426f06a 1000 PER  fgServices change:procadj procs:0 seq(832046,830027)} caps=LCMNFU always=false idle=false
+02-09 18:07:49.443  1918  1918 D AlarmManager: mBroadcastRefCount -> 0
+02-09 18:07:49.443  1918  1918 D AlarmManager: mPendingIntent -> null
+02-09 18:07:49.443  1918  2831 D ActivityManager: checkAllowBackground: uid=10221 pkg=com.miui.weather2 rec=UidRecord{82405f4 u0a221 CEM  bg:+2m34s888ms idle change:procadj procs:0 seq(832001,829574)} caps=------ always=false idle=true
+02-09 18:07:49.444  1918  2831 D CompatibilityChangeReporter: Compat change id reported: 271850009; UID 10221; state: ENABLED
+02-09 18:07:49.447  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10221, uidState = 8
+02-09 18:07:49.448  1918  2831 I SmartPower: com.miui.weather2/10221(31074): idle->background(151891ms) R(service create com.miui.weather2/androidx.work.impl.background.systemjob.SystemJobService) adj=0.
+02-09 18:07:49.450  1918  2831 I whetstone.activity: Power Event callback listener is empty for resId=256
+02-09 18:07:49.450  1918  2831 D BatteryStatsManagerStub: notifyEvent for resId=256 used 0ms
+02-09 18:07:49.473 31074  3266 I Wth2:BackgroundUpdateWorker: doWork() start
+02-09 18:07:49.506  1918  3242 I SmartPower: com.android.vending:background/10164(32025): background->idle(3002ms) R(service unbind com.android.vending/com.google.frameworks.client.data.android.server.play.BackgroundProcessEndpointService) adj=905.
+02-09 18:07:49.741  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832141,828619)} caps=------ always=true idle=true
+02-09 18:07:49.741  1918  9593 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:49.741  1918  9593 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:49.741  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:49.741  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832141,828619)} caps=------ always=true idle=true
+02-09 18:07:49.741  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:49.741  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:49.743  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:49.831 31074  3267 W System.err: org.json.JSONException: No value for minutely
+02-09 18:07:49.831 31074  3267 W System.err: 	at org.json.JSONObject.get(JSONObject.java:398)
+02-09 18:07:49.831 31074  3267 W System.err: 	at org.json.JSONObject.getJSONObject(JSONObject.java:618)
+02-09 18:07:49.831 31074  3267 W System.err: 	at d3.e.h(SourceFile:10)
+02-09 18:07:49.831 31074  3267 W System.err: 	at y3.d.i(SourceFile:4)
+02-09 18:07:49.831 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.c(Unknown Source:2)
+02-09 18:07:49.831 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.a(Unknown Source:0)
+02-09 18:07:49.831 31074  3267 W System.err: 	at com.miui.weather2.tools.i.call(SourceFile:1)
+02-09 18:07:49.831 31074  3267 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+02-09 18:07:49.831 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+02-09 18:07:49.831 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+02-09 18:07:49.831 31074  3267 W System.err: 	at java.lang.Thread.run(Thread.java:1563)
+02-09 18:07:49.834 31074  3267 W System.err: org.json.JSONException: No value for brandInfo
+02-09 18:07:49.834 31074  3267 W System.err: 	at org.json.JSONObject.get(JSONObject.java:398)
+02-09 18:07:49.834 31074  3267 W System.err: 	at org.json.JSONObject.getJSONObject(JSONObject.java:618)
+02-09 18:07:49.834 31074  3267 W System.err: 	at z3.c.c(SourceFile:2)
+02-09 18:07:49.834 31074  3267 W System.err: 	at com.miui.weather2.structures.WeatherData.<init>(SourceFile:20)
+02-09 18:07:49.834 31074  3267 W System.err: 	at com.miui.weather2.structures.WeatherData.<init>(SourceFile:2)
+02-09 18:07:49.834 31074  3267 W System.err: 	at d3.e.h(SourceFile:14)
+02-09 18:07:49.834 31074  3267 W System.err: 	at y3.d.i(SourceFile:4)
+02-09 18:07:49.834 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.c(Unknown Source:2)
+02-09 18:07:49.834 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.a(Unknown Source:0)
+02-09 18:07:49.834 31074  3267 W System.err: 	at com.miui.weather2.tools.i.call(SourceFile:1)
+02-09 18:07:49.834 31074  3267 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+02-09 18:07:49.834 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+02-09 18:07:49.834 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+02-09 18:07:49.834 31074  3267 W System.err: 	at java.lang.Thread.run(Thread.java:1563)
+02-09 18:07:49.858 31074  3267 W System.err: org.json.JSONException: No value for brandInfo
+02-09 18:07:49.859 31074  3267 W System.err: 	at org.json.JSONObject.get(JSONObject.java:398)
+02-09 18:07:49.859 31074  3267 W System.err: 	at org.json.JSONObject.getJSONObject(JSONObject.java:618)
+02-09 18:07:49.859 31074  3267 W System.err: 	at z3.c.c(SourceFile:2)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.structures.WeatherData.<init>(SourceFile:20)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.tools.i1.c(SourceFile:3)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.tools.i1.h(SourceFile:10)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.tools.i1.l(SourceFile:14)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.tools.i1.k(SourceFile:4)
+02-09 18:07:49.859 31074  3267 W System.err: 	at d3.e.h(SourceFile:17)
+02-09 18:07:49.859 31074  3267 W System.err: 	at y3.d.i(SourceFile:4)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.c(Unknown Source:2)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.service.work.BackgroundUpdateWorker$d.a(Unknown Source:0)
+02-09 18:07:49.859 31074  3267 W System.err: 	at com.miui.weather2.tools.i.call(SourceFile:1)
+02-09 18:07:49.859 31074  3267 W System.err: 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+02-09 18:07:49.859 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+02-09 18:07:49.859 31074  3267 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+02-09 18:07:49.859 31074  3267 W System.err: 	at java.lang.Thread.run(Thread.java:1563)
+02-09 18:07:49.860 31074  3267 D Wth2:WeatherData: updateSelf() the background weather data is newer, update now, cityId=616666706d6d8f6b6f5e6867625c99a1adaf8491a19b6d#currentTimeMillis=1770640669860
+02-09 18:07:49.891 30155 30155 D CompatibilityChangeReporter: Compat change id reported: 150939131; UID 10329; state: ENABLED
+02-09 18:07:49.892 31074  3267 D Wth2:CacheCityData: cacheData() name=889aa6a797a891a49ba4ab989a#currentTimeMillis=1770640669892
+02-09 18:07:49.897 31074  3267 D Wth2:DiskStringCache: getString() key=9f9aaba1959999a8af8f9b98a5986558af97a2a59973616f7065676e706c686e#currentTimeMillis=1770640669897
+02-09 18:07:49.898  1918  9593 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+02-09 18:07:49.900  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10221, uidState = 5
+02-09 18:07:49.900 31074  3267 D Wth2:DiskStringCache: putString() key=9399adb2959a91a8975c57ad929ca59e76b15891a59f527159656552655b989b9ca3a497a0a598a352735b8a979d9da250859895a55c5982a49a9995585c599a9aa4a9829d58705265665e6e6e688f6772676766615662529aa0a5a97e9aa69b586a568c91a5a592a291a99eaaaa919d585c599da0a2959c9aa9aa71a59fa359718c52529665589c9fa69b9398aaa57491b2ad9fa3958b9b91ab9f96a284b2a99ba9526e91525963536152655b66585c566752635962525c5b6a58935c569c9fa99c9491a3ad879f9d98a88d9598ab9995a28db2a69ba356708b59595d52615b655866526058605963536152655b66588d605896a6a9969391acad86ab92889f9d9c596b5262696b6c6360666360708b61676a69697066605f6665716a61525c5b9fa5a8959797a3ab8b969da09eab97aaa5a69b78a09e99a352739458585c56696059635363605b655868695662526a67535c526c6958935c569c9fa99c9491a3ad8d9ba3a099a891abaca3957ca8b0a9586a8f58526359636052655b68665260586267595d52626b5b62586265588d63599d91a4a2adab9a9556705268675f6766716d6a6d61566252a3a69491a49e7fa2979756706163599d9f9ea0a2aaab9499586a596e6a5e616a6a6b6a6868585c59ab969da09eab97aaa5a69b527159636752655bad9b91a89e95a98baaa0955b73586752b1#currentTimeMillis=1770640669900
+02-09 18:07:49.900 31074  3267 D Wth2:DiskStringCache: putString() key=9891aca1959999a8af8f9b98a5915c59af97a2a599736267676766637169666b#currentTimeMillis=1770640669900
+02-09 18:07:49.901  1918  6248 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+02-09 18:07:49.901  1918  3208 D isUidValid: uid = 10221
+02-09 18:07:49.901  1918  2831 D ActivityManager: checkAllowBackground: uid=10221 pkg=com.miui.weather2 rec=UidRecord{82405f4 u0a221 BFGS change:active|procstate|procadj procs:0 seq(832143,832143)} caps=---NFU always=false idle=false
+02-09 18:07:49.902 31074  3266 I Wth2:BackgroundUpdateWorker: doWork() result=0,1,0
+02-09 18:07:49.902  1918  9593 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+02-09 18:07:49.902 31074  3266 I Wth2:BackgroundUpdateWorker: doWork() success
+02-09 18:07:49.904 31074 31135 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=3aea2661-d36d-4434-be10-fcc4d16ff34a, tags={ com.miui.weather2.service.work.BackgroundUpdateWorker } ]
+02-09 18:07:49.906  1918  9593 D PackageManager: set app component=ComponentInfo{com.miui.weather2/androidx.work.impl.background.systemalarm.RescheduleReceiver} enabled state: 2 from com.miui.weather2,uid=10221,pid=31074
+02-09 18:07:49.908  1918  6247 I whetstone.activity: Power Event callback listener is empty for resId=256
+02-09 18:07:49.908  1918  6247 D BatteryStatsManagerStub: notifyEvent for resId=256 used 0ms
+02-09 18:07:50.327  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:50.329  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:50.329  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:50.329  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:50.329  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:50.329  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:50.329  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:50.329  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:07:50.334  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:50.334  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:50.334  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:50.496  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:50.524  1918  3242 I SmartPower: com.miui.android.fashiongallery/10223(31407): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=915.
+02-09 18:07:50.524  1918  3242 I SmartPower: com.spotify.music/10331(31749): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) }) adj=250.
+02-09 18:07:50.722 31036 31036 W JobService: onNetworkChanged() not implemented in com.android.providers.downloads.ui.service.CoreJobService. Must override in a subclass.
+02-09 18:07:50.745  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:50.745  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832145,828619)} caps=------ always=true idle=true
+02-09 18:07:50.746  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:50.746  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:50.746  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832145,828619)} caps=------ always=true idle=true
+02-09 18:07:50.746  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:50.746  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:50.748  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:50.907  1918  2763 I AppsFilter: interaction: PackageSetting{3e6cba4 com.holofindx/10345} -> PackageSetting{2718f45 com.miui.weather2/10221} BLOCKED
+02-09 18:07:50.907  1918  2763 I AppsFilter: interaction: PackageSetting{5dfe509 com.fido.asm/10106} -> PackageSetting{2718f45 com.miui.weather2/10221} BLOCKED
+02-09 18:07:50.908  1918  2763 I ActivityManager: Broadcast action android.intent.action.PACKAGE_CHANGED forcing include-background
+02-09 18:07:50.920  1918  2897 I RoleService: Granting default roles...
+02-09 18:07:50.921  4012  4012 D Launcher.Model: LauncherAppsCallback onPackageChanged|com.miui.weather2|UserHandle{0}|false
+02-09 18:07:50.921  4012  4180 D Launcher.Model: Got broadcast:Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: (has extras) }
+02-09 18:07:50.921  4012  4012 D Launcher.Model: onPackageChanged: packageName = com.miui.weather2
+02-09 18:07:50.921  4012  4012 D Launcher.Model: checkAssistantBlurSupport: 
+02-09 18:07:50.921  3997  3997 D MiuiClockController: receive package changed com.miui.weather2
+02-09 18:07:50.922 30451 30526 D package-sync:Thread[DefaultDispatcher-worker-2,5,main]: --- LOG HAPPENED BEFORE LOGGER INITIALIZATION ---onPackageChanged com.miui.weather2 UserHandle{0}
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: getAppVersionCode failure
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: android.content.pm.PackageManager$NameNotFoundException: com.miui.personalassistant
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:219)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:213)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.common.Utilities.getAppVersionCode(Utilities.java:1223)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.ApplicationConfig.checkVersionCode(ApplicationConfig.java:161)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.ApplicationConfig.setSupportHomeBlur(ApplicationConfig.java:151)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.ApplicationConfig.updateSupportHomeBlur(ApplicationConfig.java:156)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.LauncherModel.checkAssistantBlurSupport(LauncherModel.java:587)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.LauncherModel.access$1600(LauncherModel.java:171)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.launcher.LauncherModel$LauncherAppsCallback.onPackageChanged(LauncherModel.java:408)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.miui.home.library.compat.LauncherAppsCompatVL$WrappedCallback.onPackageChanged(LauncherAppsCompatVL.java:111)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.content.pm.LauncherApps$CallbackMessageHandler.handleMessage(LauncherApps.java:1906)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.os.Looper.loopOnce(Looper.java:222)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.os.Looper.loop(Looper.java:314)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at android.app.ActivityThread.main(ActivityThread.java:8857)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at java.lang.reflect.Method.invoke(Native Method)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)
+02-09 18:07:50.922  4012  4012 W Launcher.Utilities: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+02-09 18:07:50.922  4012  4012 D Launcher.Model: checkAssistantBlurSupport: post AssistantBlurSupportChangeMessage 
+02-09 18:07:50.922  4012  4012 D EventBus: No subscribers registered for event class com.miui.home.launcher.common.messages.AssistantBlurSupportChangeMessage
+02-09 18:07:50.922  4012  4012 D EventBus: No subscribers registered for event class org.greenrobot.eventbus.NoSubscriberEvent
+02-09 18:07:50.922  3990  3990 D CarrierSvcBindHelper: onPackageModified: com.miui.weather2
+02-09 18:07:50.923  3990  3990 D CarrierSvcBindHelper: No carrier app for: 0
+02-09 18:07:50.923  3990  3990 D CarrierSvcBindHelper: No carrier app for: 1
+02-09 18:07:50.924  3990  4559 D ImsResolver: maybeAddedImsService, packageName: com.miui.weather2
+02-09 18:07:50.928  1918  3426 I SmartPower: com.google.android.permissioncontroller/10210(32471): idle->background(61165ms) R(service create com.google.android.permissioncontroller/com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl) adj=0.
+02-09 18:07:50.929  3997  3997 D ControlsListingControllerImpl: ServiceConfig reloaded, count: 3
+02-09 18:07:50.929  4012  4180 D Launcher.AllAppsList: updatePackage, packageName=com.miui.weather2, loadMissing=false, user=UserHandle{0}, matchedSize=1
+02-09 18:07:50.929  4012  4180 D Launcher.AllAppsList: updatePackage, find appInfo=AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.miui.weather2, className=com.miui.weather2.ActivityWeatherMain, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1 from ComponentInfo{com.miui.weather2/com.miui.weather2.ActivityWeatherMain}
+02-09 18:07:50.929  3997  3997 D LockScreenMagazineController: received broadcast android.intent.action.PACKAGE_CHANGED
+02-09 18:07:50.930  4012  4144 W PreviewDisappear: 1 getIcon entry: null
+02-09 18:07:50.930  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10210, uidState = 6
+02-09 18:07:50.931  1918  3208 D isUidValid: uid = 10210
+02-09 18:07:50.934  1918  3033 I InputReader: Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+02-09 18:07:50.935  4012  4144 W PreviewDisappear: 2 getIcon entry: com.miui.home.launcher.graphics.DrawableInfo@5c176e1
+02-09 18:07:50.935  4012  4180 D Launcher.Model: onReceiveBackground, mAllAppsList=add=[], remove=[], modified=[(0, AppInfo, id=-1, itemType=0, user=UserHandle{0}, mIconType=0, pkgName=com.miui.weather2, className=com.miui.weather2.ActivityWeatherMain, screenId=-1, container=-1, cellX=-1, cellY=-1, spanX=1, spanY=1)]
+02-09 18:07:50.935  4012  4144 W PreviewDisappear: applyCacheEntry entry: com.miui.home.launcher.graphics.drawable.LayerAdaptiveIconDrawable@89e5c06
+02-09 18:07:50.938 32471 32484 I PermissionControllerServiceImpl: Updating user sensitive for uid 10221
+02-09 18:07:50.939  4012  4012 D ScrollerOptimizationManager: registerConfigChangedListener
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.940  3997  4150 D MiuiFreeformCursorHandler: updateSupportMouse mSupportMouse∩╝Üfalse
+02-09 18:07:50.944  4012  4012 D ScrollerOptimizationManager: registerConfigChangedListener
+02-09 18:07:50.944 32471  3290 D CompatibilityChangeReporter: Compat change id reported: 303742236; UID 10210; state: ENABLED
+02-09 18:07:50.946  4012  4134 D BaseAllAppsContainerView: updateAppsColorInfo∩╝Ütrue
+02-09 18:07:50.946  4012  4719 D ColorFilter: getColorFiltersFromStorage
+02-09 18:07:50.959 30451 31398 I en:BranchSearch: Explicit concurrent copying GC freed 5554KB AllocSpace bytes, 0(0B) LOS objects, 75% free, 2905KB/11MB, paused 44us,21us total 17.896ms
+02-09 18:07:50.959 30451 30476 W en:BranchSearch: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-semMuoWP4ZxgQLBwOIkpA==/com.miui.weather2-b-El876XhxXsJBrOVfYmUQ==/base.apk' with 1 weak references
+02-09 18:07:50.960  4012  4012 D ColorFilter: color filter size = 7
+02-09 18:07:50.963  4012  4012 D ColorFilter: button count = 7
+02-09 18:07:50.963  4012  4012 D AlphabeticalAppsList: filterAppsWithColor
+02-09 18:07:50.966  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:50.966  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:50.966  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 110 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.967  4012  4012 D ColorFilter: button width = 135 , button height = 110
+02-09 18:07:50.969  1434  1434 D MI-SF   : mIsSupportAutomodeForMaxFpsSetting is 0(0), getCurrentBrightness() = 36(328), mIsKeepAutoMode 0
+02-09 18:07:50.969  1434  1434 D RefreshRateSelector: fixedMode_group: 0, isFindModeGroup 0
+02-09 18:07:50.969  1434  1434 D RefreshRateSelector: find max refresh rate:120, mode Group:0
+02-09 18:07:50.974 30451 31398 I en:BranchSearch: Explicit concurrent copying GC freed 112KB AllocSpace bytes, 0(0B) LOS objects, 75% free, 2904KB/11MB, paused 45us,20us total 12.053ms
+02-09 18:07:50.977 32471  3290 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+02-09 18:07:50.987 32471  3290 W SignedPackage: Package doesn't have required signing certificate: com.google.android.apps.work.clouddpc
+02-09 18:07:51.001 30451 31398 I en:BranchSearch: Explicit concurrent copying GC freed 378KB AllocSpace bytes, 0(0B) LOS objects, 75% free, 2926KB/11MB, paused 37us,17us total 10.575ms
+02-09 18:07:51.014 30451 31398 I en:BranchSearch: Explicit concurrent copying GC freed 133KB AllocSpace bytes, 0(0B) LOS objects, 75% free, 2888KB/11MB, paused 34us,22us total 10.484ms
+02-09 18:07:51.059  1918 11180 W AppOps  : setUidMode() called with a mode inconsistent with runtime permission state, this is discouraged and you should revoke the runtime permission instead: uid=10279, switchCode=0, mode=4, permission=android.permission.ACCESS_BACKGROUND_LOCATION
+02-09 18:07:51.069  1918  1918 D HealthConnectTrackerManagerImpl: No packages eligible for step tracking. Aborting initialization.
+02-09 18:07:51.128  1918  2003 D HighMemoryManager: Java Memory used=114M max=512M. is system: true
+02-09 18:07:51.128  1918  2003 V HighMemoryManager: Check mem usage finished! Next check delay: 0
+02-09 18:07:51.177 32471  3290 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER, user: 0
+02-09 18:07:51.188 32471  3290 E FeatureFlagsImplExport: android.os.flagging.AconfigStorageReadException: ERROR_PACKAGE_NOT_FOUND: package com.android.window.flags cannot be found on the device
+02-09 18:07:51.284  4012  4012 D Launcher.Model: LauncherAppsCallback onShortcutsChanged|com.miui.weather2|UserHandle{0}|false
+02-09 18:07:51.284 30451 31398 D package-sync:Thread[DefaultDispatcher-worker-10,5,main]: --- LOG HAPPENED BEFORE LOGGER INITIALIZATION ---onShortcutsChanged com.miui.weather2 UserHandle{0}
+02-09 18:07:51.330  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:51.332  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:51.332  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:51.332  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:51.332  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:51.332  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:51.332  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:51.332  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:51.338  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:51.338  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:51.338  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:51.410  1918  2382 I SmartPower: android.process.acore/10059(8164): idle->background(69494ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=800.
+02-09 18:07:51.411  1918  2382 I SmartPower: com.milink.service:audio/10128(30152): idle->background(69493ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=100.
+02-09 18:07:51.411 30155 30155 I PackageInstallReceiver: action = android.intent.action.PACKAGE_CHANGED packageName = com.miui.weather2
+02-09 18:07:51.411  1918  2382 I SmartPower: com.xiaomi.mipicks/10124(30645): idle->background(69493ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=915.
+02-09 18:07:51.411 30155 30155 I AppWidgetDelegate: updateAppWidgets for com.miui.weather2
+02-09 18:07:51.412 30155 30155 I Widget-Controller: WidgetController.updateOrRemoveStackWhenPackageChanged: packageName com.miui.weather2
+02-09 18:07:51.412  1918  4287 D ActivityManager: checkAllowBackground: uid=10162 pkg=com.google.android.gms rec=UidRecord{1e1e60e u0a162 BTOP change:procadj procs:0 seq(832136,828165)} caps=LCMNFU always=false idle=false
+02-09 18:07:51.412 30155 30155 I ShortCutsCardView: onAppChanged com.miui.weather2
+02-09 18:07:51.413  8164  8164 V ContactsTaskScheduler: [ContactsPackageMonitor] Thread[Worker-84,5,main] started.
+02-09 18:07:51.413  8164  3298 V ContactsTaskScheduler: [ContactsPackageMonitor] Thread[Worker-84,5,main] dispatching 0
+02-09 18:07:51.414  8164  3298 D ContactDirectoryManager: onPackageChanged,updateDirectoriesForPackage, packageName:com.miui.weather2
+02-09 18:07:51.414 30155  3299 I AppWidgetDelegate: removeAllWidgets com.mi.globalminusscreen.service.cricket.CricketWidgetProvider
+02-09 18:07:51.421  1918  4287 D ActivityManager: checkAllowBackground: uid=10162 pkg=com.google.android.gms rec=UidRecord{1e1e60e u0a162 BTOP change:procadj procs:0 seq(832155,828165)} caps=LCMNFU always=false idle=false
+02-09 18:07:51.426  8164  3298 V ContactsTaskScheduler: [ContactsPackageMonitor] Thread[Worker-84,5,main] dispatching end 0
+02-09 18:07:51.429  1918  4287 I ClipboardServiceI: checkProviderWakePathForClipboard: primaryClip is null
+02-09 18:07:51.500  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:51.672 30155  3302 E Widget-Util: NameNotFound com.facebook.katana
+02-09 18:07:51.675 30155  3302 E Widget-Util: NameNotFound com.mipay.wallet.in
+02-09 18:07:51.682 30155  3302 E Widget-Util: NameNotFound com.miui.videoplayer
+02-09 18:07:51.688 30155  3302 E Widget-Util: NameNotFound com.mi.global.bbs
+02-09 18:07:51.690 30155  3302 E Widget-Util: NameNotFound com.netflix.mediaclient
+02-09 18:07:51.691 30155  3302 I ShortCutsItem: drop size = 10 result = [{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.holofindx","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.android.settings","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.google.android.gm","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.supercell.clashroyale","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.whatsapp","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"in.amazon.mShop.android.shopping","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.google.android.apps.docs.editors.sheets","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.google.android.apps.nbu.paisa.user","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.spotify.music","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.instagram.android","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"org.telegram.messenger","parentName":"","position":2147483647,"resId":"","trackDetail":"shortcuts_recent","uri":""},{"actionName":"","actionType":"native","appName":"","className":"","deeplink":"","drawableId":0,"drawableName":"","drawableUrl":"","groupId":"","id":"","isNativeAdd":false,"isXspace":false,"key":"","name":"","packageName":"com.msf.angelmobile","parentName":"","position":21474
+02-09 18:07:51.750  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:51.750  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832160,828619)} caps=------ always=true idle=true
+02-09 18:07:51.750  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:51.750  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:51.750  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832160,828619)} caps=------ always=true idle=true
+02-09 18:07:51.750  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:51.750  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:51.752  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:51.916  1918  2755 D PermissionManager: writeLegacyPermissionState for user  in 6 ms.
+02-09 18:07:52.052  1918  2027 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.micharge@1.0::IMiCharge/default
+02-09 18:07:52.054  1316  1337 I vendor.xiaomi.hardware.micharge@1.0-service: ReadFilePathValue path = /sys/class/qcom-battery/pd_verifed value = 0
+02-09 18:07:52.334  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:52.335  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:52.335  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:52.335  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:07:52.335  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:52.335  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:52.335  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:52.335  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:52.347  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:52.347  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:52.347  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:52.354  1434  1434 D MI-SF   : mIsSupportAutomodeForMaxFpsSetting is 0(0), getCurrentBrightness() = 36(328), mIsKeepAutoMode 0
+02-09 18:07:52.354  1434  1434 D RefreshRateSelector: fixedMode_group: 0, isFindModeGroup 0
+02-09 18:07:52.354  1434  1434 D RefreshRateSelector: find max refresh rate:120, mode Group:0
+02-09 18:07:52.449  1918  3242 I SmartPower: com.miui.weather2/10221(31074): background->idle(3001ms) R(service create com.miui.weather2/androidx.work.impl.background.systemjob.SystemJobService) adj=0.
+02-09 18:07:52.509  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:52.692  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:52.700  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:52.700  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:52.700  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:52.778  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:52.779  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832162,828619)} caps=------ always=true idle=true
+02-09 18:07:52.779  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:52.779  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:52.779  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832162,828619)} caps=------ always=true idle=true
+02-09 18:07:52.779  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:52.779  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:52.781  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:52.876  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:53.783  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832164,828619)} caps=------ always=true idle=true
+02-09 18:07:53.783  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:53.783  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:53.783  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:53.783  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832164,828619)} caps=------ always=true idle=true
+02-09 18:07:53.783  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:53.783  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:53.785  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:54.222  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:07:54.342  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:54.343  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:54.343  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:54.343  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:54.343  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:54.343  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:54.343  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:54.344  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:54.352  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:54.352  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:54.352  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:54.411  1918  3242 I SmartPower: android.process.acore/10059(8164): background->idle(3001ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=800.
+02-09 18:07:54.411  1918  3242 I SmartPower: com.milink.service:audio/10128(30152): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=100.
+02-09 18:07:54.411  1918  3242 I SmartPower: com.xiaomi.mipicks/10124(30645): background->idle(3000ms) R(broadcast start Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x45000010 (has extras) }) adj=915.
+02-09 18:07:54.515  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:54.788  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:54.788  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832166,828619)} caps=------ always=true idle=true
+02-09 18:07:54.788  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:54.788  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:54.788  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832166,828619)} caps=------ always=true idle=true
+02-09 18:07:54.788  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:54.788  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:54.790  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:55.345  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:55.347  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:55.351  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:55.351  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:55.351  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:55.351  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:55.351  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:55.351  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:07:55.353  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87277859 mSleepTimeMs=49955640 mIdleTimeMs=889338 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955349, 1134201, 559819, 657517],mRxTimeMs=34843760}]}
+02-09 18:07:55.353  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:07:55.354  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87277859 mSleepTimeMs=49955640 mIdleTimeMs=889338 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955349, 1134201, 559819, 657517],mRxTimeMs=34843760}]}
+02-09 18:07:55.354  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:55.354  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:55.354  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:55.415  1918  2365 D HeapUsage Monitor: HeapAllocSize : 117MB; monitorSize : 500MB
+02-09 18:07:55.517  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:55.792  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832168,828619)} caps=------ always=true idle=true
+02-09 18:07:55.792  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:55.792  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:55.792  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:55.793  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832168,828619)} caps=------ always=true idle=true
+02-09 18:07:55.793  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:55.793  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:55.794  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:55.928  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10221, uidState = 15
+02-09 18:07:56.349  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:56.350  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:56.350  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:56.350  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:56.350  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:56.351  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:56.351  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:56.351  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:56.355  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:56.355  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:56.355  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:56.520  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:56.695  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:56.708  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:56.708  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:56.708  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:56.798  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:56.798  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832171,828619)} caps=------ always=true idle=true
+02-09 18:07:56.798  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:56.798  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:56.798  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832171,828619)} caps=------ always=true idle=true
+02-09 18:07:56.798  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:56.798  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:56.800  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:56.885  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:57.802  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:57.802  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832173,828619)} caps=------ always=true idle=true
+02-09 18:07:57.802  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:57.802  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:57.802  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832173,828619)} caps=------ always=true idle=true
+02-09 18:07:57.803  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:57.803  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:57.804  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:58.359  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:58.359  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:58.359  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:58.359  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:07:58.359  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:07:58.359  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:07:58.359  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:58.361  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:58.370  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:58.370  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:58.370  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:58.434  1918  4287 W ProcessStats: Tracking association SourceState{2b4d12c com.miui.securitycenter/1000 BFgs #181942} whose proc state 4 is better than process ProcessState{3b092a2 com.miui.securitycenter.remote/1000 pkg=com.miui.securitycenter} proc state 8 (76 skipped)
+02-09 18:07:58.531  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:58.806  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:58.807  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832181,828619)} caps=------ always=true idle=true
+02-09 18:07:58.807  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:58.807  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:58.807  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832181,828619)} caps=------ always=true idle=true
+02-09 18:07:58.807  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:58.807  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:58.809  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:07:59.022  1918  3977 D SLM-SRV-SLAService: checktemp temperature = 38658 temperature_average = 38782 isPerformanceMode = false thermal_enable_slm = true
+02-09 18:07:59.364  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:59.364  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:59.364  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:07:59.364  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:07:59.364  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:07:59.364  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:07:59.364  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:07:59.365  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:59.369  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:07:59.369  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:07:59.370  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:07:59.534  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:07:59.811  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:07:59.812  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832183,828619)} caps=------ always=true idle=true
+02-09 18:07:59.812  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:59.812  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:59.812  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832183,828619)} caps=------ always=true idle=true
+02-09 18:07:59.812  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:07:59.812  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:07:59.814  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:00.000  1918  2921 D ActivityManager: checkAllowBackground: uid=1000 pkg=android rec=UidRecord{426f06a 1000 PER  fgServices change:procadj procs:0 seq(832180,830027)} caps=LCMNFU always=false idle=false
+02-09 18:08:00.000  1918  2921 D AlarmManager: mBroadcastRefCount -> 1
+02-09 18:08:00.001  1918  1918 D AlarmManager: mBroadcastRefCount -> 0
+02-09 18:08:00.001  1918  1918 D AlarmManager: mPendingIntent -> null
+02-09 18:08:00.002  3997  3997 D MiuiClockController: Listener updateTime
+02-09 18:08:00.011  3997  3997 E ReflectUtils: InvocationTargetException
+02-09 18:08:00.011  3997  3997 E ReflectUtils: java.lang.reflect.InvocationTargetException
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.utils.ReflectUtils.invokeObject(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:2)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.utils.DataUtils.isAppInstalled(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:77)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.utils.DataUtils.isAppInstalledForUser(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:47)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.classic.ClassicClockView.filterClassicClockInfo(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:34)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.classic.ClassicClockView.updateTime(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:3)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.miui.clock.MiuiClockController$1.run(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:1645)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.os.Handler.handleCallback(Handler.java:958)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.os.Looper.loopOnce(Looper.java:222)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.os.Looper.loop(Looper.java:314)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.app.ActivityThread.main(ActivityThread.java:8857)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at java.lang.reflect.Method.invoke(Native Method)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: Caused by: android.content.pm.PackageManager$NameNotFoundException: com.mi.health
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:247)
+02-09 18:08:00.011  3997  3997 E ReflectUtils: 	... 15 more
+02-09 18:08:00.011  3997  3997 W System.err: java.lang.reflect.InvocationTargetException
+02-09 18:08:00.011  3997  3997 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.utils.ReflectUtils.invokeObject(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:2)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.utils.DataUtils.isAppInstalled(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:77)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.utils.DataUtils.isAppInstalledForUser(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:47)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.classic.ClassicClockView.filterClassicClockInfo(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:34)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.classic.ClassicClockView.updateTime(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:3)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.miui.clock.MiuiClockController$1.run(go/retraceme ae2a346b5dc795f1b8ed56c0f3f09f8539fadae4744ad635990ce6e383c6db62:1645)
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.os.Handler.handleCallback(Handler.java:958)
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.os.Looper.loopOnce(Looper.java:222)
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.os.Looper.loop(Looper.java:314)
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.app.ActivityThread.main(ActivityThread.java:8857)
+02-09 18:08:00.011  3997  3997 W System.err: 	at java.lang.reflect.Method.invoke(Native Method)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:565)
+02-09 18:08:00.011  3997  3997 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1013)
+02-09 18:08:00.011  3997  3997 W System.err: Caused by: android.content.pm.PackageManager$NameNotFoundException: com.mi.health
+02-09 18:08:00.011  3997  3997 W System.err: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:259)
+02-09 18:08:00.012  3997  3997 W System.err: 	at android.app.ApplicationPackageManager.getPackageInfoAsUser(ApplicationPackageManager.java:247)
+02-09 18:08:00.012  3997  3997 W System.err: 	... 15 more
+02-09 18:08:00.013  3997  3997 E AnimationHelper: updateTime mToAod:false mHasNotification: true, mClockType: classic
+02-09 18:08:00.014  3997  3997 D MiuiStatusBarClock: updateTime: 6:08
+02-09 18:08:00.014  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:00.021  3997  3997 W View    : requestLayout() improperly called by com.android.keyguard.AlphaOptimizedLinearLayout{8c034aa V.E...... ......ID 0,0-360,174 #7f0a0963 app:id/status_icons_container} during layout: running second layout pass
+02-09 18:08:00.021  3997  3997 W View    : requestLayout() improperly called by com.android.systemui.statusbar.views.MiuiClock{f5e689b V.ED..... ......ID 0,0-360,174 #7f0a014a app:id/big_time} during layout: running second layout pass
+02-09 18:08:00.022  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:00.022  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:00.022  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:00.187  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:00.704  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:00.718  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:00.718  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:00.718  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:00.816  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832185,828619)} caps=------ always=true idle=true
+02-09 18:08:00.816  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:00.817  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:00.817  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:00.817  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832185,828619)} caps=------ always=true idle=true
+02-09 18:08:00.817  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:00.817  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:00.818  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:00.893  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:01.821  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832188,828619)} caps=------ always=true idle=true
+02-09 18:08:01.821  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:01.821  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:01.821  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:01.821  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832188,828619)} caps=------ always=true idle=true
+02-09 18:08:01.821  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:01.821  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:01.823  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:01.943  1918  3242 I SmartPower: com.google.android.permissioncontroller/10210(32471): background->idle(11015ms) R(service end com.google.android.permissioncontroller/com.android.role.controller.service.RoleControllerServiceImpl) adj=100.
+02-09 18:08:02.825  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832190,828619)} caps=------ always=true idle=true
+02-09 18:08:02.825  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:02.826  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:02.826  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:02.826  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832190,828619)} caps=------ always=true idle=true
+02-09 18:08:02.826  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:02.826  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:02.828  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:03.830  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:03.830  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832192,828619)} caps=------ always=true idle=true
+02-09 18:08:03.830  1918  4287 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:03.830  1918  4287 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:03.831  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832192,828619)} caps=------ always=true idle=true
+02-09 18:08:03.831  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:03.831  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:03.833  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:04.225  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:08:04.707  1918  3964 I NetworkBoostStatusManager: handle: 107
+02-09 18:08:04.710  3990  5065 E PhoneAdapter: get ntnphones failed, exception: java.lang.IllegalStateException: Default phones haven't been made yet!
+02-09 18:08:04.711  1918  3964 D SLM-SRV-SLAService: isModemSingnalStrengthStatus = 0
+02-09 18:08:04.724  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:04.742  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:04.742  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:04.742  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:04.807  1918  2921 W ActivityManagerServiceImpl: Sending non-protected broadcast miui.extm.action.mark from system uid 1000 pkg android. Callers=com.android.server.am.ActivityManagerService.checkBroadcastFromSystem:15246 com.android.server.am.ActivityManagerService.broadcastIntentLockedTraced:16076 com.android.server.am.ActivityManagerService.broadcastIntentLocked:15304 com.android.server.am.ActivityManagerService.broadcastIntentInPackage:16309 com.android.server.am.ActivityManagerService$LocalService.broadcastIntentInPackage:19055 
+02-09 18:08:04.808  1918  2921 D AlarmManager: mBroadcastRefCount -> 1
+02-09 18:08:04.812  1918  1918 I ExtM    : mark duration up to 2m , try to mark.
+02-09 18:08:04.813  1918  1918 D MFZ     : Start Mark
+02-09 18:08:04.813  1918  3764 D ExtM    : Start marking ...
+02-09 18:08:04.813  1918  3764 W ExtM    : Mark thread start 
+02-09 18:08:04.814   678  3361 D vold    : mark task started
+02-09 18:08:04.816  3362  3362 D vold    :  mark Pid = 3362
+02-09 18:08:04.816  3362  3362 E vold    : maxCpuFreq=2400000
+02-09 18:08:04.816  3362  3362 E vold    : maxCpuFreq=2400000
+02-09 18:08:04.816  3362  3362 D vold    : set cpu affinity policy success
+02-09 18:08:04.835  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:04.836  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832256,828619)} caps=------ always=true idle=true
+02-09 18:08:04.836  1918  6247 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:04.836  1918  6247 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:04.836  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832256,828619)} caps=------ always=true idle=true
+02-09 18:08:04.836  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:04.836  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:04.841  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:04.876  1918  1918 D MFZ     : Mark Finshed ! idle_stats: 205 752 232 1480 73 11 51 1 38 34431
+02-09 18:08:04.877  1918  1918 D CompatibilityChangeReporter: Compat change id reported: 171306433; UID 1000; state: ENABLED
+02-09 18:08:04.877  1918  1918 D CompatibilityChangeReporter: Compat change id reported: 218533173; UID 1000; state: ENABLED
+02-09 18:08:04.877  1918  1918 D ActivityManager: checkAllowBackground: uid=1000 pkg=android rec=UidRecord{426f06a 1000 PER  fgServices allowlist change:procadj procs:0 seq(832255,830027)} caps=LCMNFU always=false idle=false
+02-09 18:08:04.877  1918  1918 E FileUtils: err write to mi_exception_log
+02-09 18:08:04.877  1918  1918 D AlarmManager: mBroadcastRefCount -> 0
+02-09 18:08:04.877  1918  1918 D AlarmManager: mPendingIntent -> PendingIntent{172f360: PendingIntentRecord{4a504ff android broadcastIntent}}
+02-09 18:08:04.912  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:04.936  3362  3362 D vold    :  success write all > /sys/block/zram0/idle
+02-09 18:08:05.316   678  3361 D vold    : mark process has been finished in normal with status: 0
+02-09 18:08:05.316   678  3361 D vold    :  listener->onFinished 
+02-09 18:08:05.316  1918  6248 W ExtM    : Mark finished with status: 0
+02-09 18:08:05.393  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:05.394  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:05.395  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:05.395  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:05.395  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:05.395  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:05.395  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:05.395  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:05.397  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87287903 mSleepTimeMs=49958900 mIdleTimeMs=889498 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955386, 1134230, 559846, 657518],mRxTimeMs=34850290}]}
+02-09 18:08:05.397  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:08:05.398  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87287903 mSleepTimeMs=49958900 mIdleTimeMs=889498 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955386, 1134230, 559846, 657518],mRxTimeMs=34850290}]}
+02-09 18:08:05.405  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:05.405  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:05.405  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:05.567  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:05.844  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:05.844  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832258,828619)} caps=------ always=true idle=true
+02-09 18:08:05.844  1918 11180 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:05.845  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:05.845  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832258,828619)} caps=------ always=true idle=true
+02-09 18:08:05.845  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:05.845  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:05.847  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:06.195  1918  2897 I SmartPower: com.google.android.permissioncontroller/10210(32471): idle->background(4252ms) R(service unbind com.google.android.permissioncontroller/com.android.role.controller.service.RoleControllerServiceImpl) adj=100.
+02-09 18:08:06.197  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10210, uidState = 10
+02-09 18:08:06.198  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10210, uidState = 19
+02-09 18:08:06.849  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832262,828619)} caps=------ always=true idle=true
+02-09 18:08:06.849  1918  6248 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:06.849  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:06.849  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:06.850  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832262,828619)} caps=------ always=true idle=true
+02-09 18:08:06.850  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:06.850  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:06.851  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:07.854  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832264,828619)} caps=------ always=true idle=true
+02-09 18:08:07.854  1918 11180 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:07.854  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:07.854  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:07.854  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832264,828619)} caps=------ always=true idle=true
+02-09 18:08:07.854  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:07.854  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:07.856  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:08.405  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:08.405  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:08.405  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:08.405  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:08.405  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:08.405  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:08.405  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:08.407  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:08.416  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:08.416  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:08.416  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:08.574  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:08.728  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:08.738  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:08.738  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:08.738  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:08.858  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:08.859  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832266,828619)} caps=------ always=true idle=true
+02-09 18:08:08.859  1918  6248 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:08.859  1918  6248 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:08.859  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832266,828619)} caps=------ always=true idle=true
+02-09 18:08:08.859  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:08.859  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:08.861  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:08.913  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:09.033  1918  3977 D SLM-SRV-SLAService: checktemp temperature = 38653 temperature_average = 38734 isPerformanceMode = false thermal_enable_slm = true
+02-09 18:08:09.195  1918  3242 I SmartPower: com.google.android.permissioncontroller/10210(32471): background->idle(3000ms) R(service unbind com.google.android.permissioncontroller/com.android.role.controller.service.RoleControllerServiceImpl) adj=905.
+02-09 18:08:09.228  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:08:09.410  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:09.410  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:09.410  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:09.410  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:09.410  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:09.410  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:09.410  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:09.411  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:09.423  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:09.423  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:09.423  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:09.586  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:09.864  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832268,828619)} caps=------ always=true idle=true
+02-09 18:08:09.864  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:09.864  1918 11180 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:09.864  1918 11180 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:09.864  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android rec=UidRecord{d7bef20 u0a378 CEM  idle change:cached|procstate|procadj procs:0 seq(832268,828619)} caps=------ always=true idle=true
+02-09 18:08:09.864  1918  2382 I ActivityManager: App 10378/com.instagram.android targets O+, restricted
+02-09 18:08:09.864  1918  2382 D ActivityManager: checkAllowBackground: uid=10378 pkg=com.instagram.android startMode=2 onallowlist=false onallowlist(ei)=false
+02-09 18:08:09.866  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 11
+02-09 18:08:10.289  1918  2003 D HighMemoryManager: Java Memory used=115M max=512M. is system: true
+02-09 18:08:10.289  1918  2003 V HighMemoryManager: Check mem usage finished! Next check delay: 0
+02-09 18:08:10.419  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87292925 mSleepTimeMs=49959674 mIdleTimeMs=889546 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955412, 1134264, 559858, 657518],mRxTimeMs=34854418}]}
+02-09 18:08:10.420  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:08:10.420  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87292925 mSleepTimeMs=49959674 mIdleTimeMs=889546 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955412, 1134264, 559858, 657518],mRxTimeMs=34854418}]}
+02-09 18:08:10.868  1918  3123 I MiuiNetworkPolicy: updateUidState uid = 10378, uidState = 19
+02-09 18:08:11.662  1918  3242 I SmartPower: com.instagram.android/10378(32099): background->idle(183990ms) R(broadcast end Intent { act=com.facebook.rti.intent.ACTION_FBNS_STARTED flg=0x10 pkg=com.instagram.android (has extras) }) adj=905.
+02-09 18:08:12.733  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:12.749  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:12.749  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:12.749  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:12.920  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:13.423  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:13.424  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:13.424  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:13.424  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:13.424  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:13.424  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:13.424  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:13.424  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:13.433  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:13.433  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:13.433  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:13.596  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:14.232  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:08:14.820  1918  2831 W ProcessStats: Tracking association SourceState{372722c com.miui.securitycenter.remote/1000 BTop #181974} whose proc state 2 is better than process ProcessState{5320215 com.miui.analytics/10095 pkg=com.miui.analytics} proc state 5 (77 skipped)
+02-09 18:08:15.243  8642 10212 D TrafficManageService: onThresholdReached: activeSlotNum= 0
+02-09 18:08:15.245  8642 10212 D TrafficManageService-TrafficSimManager: notifyByNetChange:0, gooooo
+02-09 18:08:15.273  8642 10212 D TrafficManageService-TrafficSimManager: getMonthDataUsageUsed: new_get = 33218927909
+02-09 18:08:15.273  8642 10212 D TrafficManageService-TrafficSimManager: checkNormalTrafficStatus: -1,used:33218927909
+02-09 18:08:15.274  8642 10212 D TrafficManageService: updateDateUsageUpdate: smartDualSimSettings = 0
+02-09 18:08:15.431  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:15.432  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:15.432  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:15.432  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:15.432  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:15.432  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:15.432  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:15.432  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:15.433  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87297940 mSleepTimeMs=49961136 mIdleTimeMs=889627 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955436, 1134289, 559882, 657518],mRxTimeMs=34857817}]}
+02-09 18:08:15.434  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:08:15.434  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87297940 mSleepTimeMs=49961136 mIdleTimeMs=889627 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955436, 1134289, 559882, 657518],mRxTimeMs=34857817}]}
+02-09 18:08:15.445  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:15.445  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:15.445  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:15.608  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:16.433  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:16.433  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:16.433  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:16.433  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:16.433  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:16.433  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:16.433  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:16.434  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:16.439  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:16.439  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:16.439  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:16.601  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:16.735  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:16.748  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:16.748  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:16.748  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:16.925  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:17.435  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:17.435  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:17.435  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:17.435  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:17.435  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:17.435  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:17.436  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:17.437  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:17.449  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:17.449  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:17.449  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:17.611  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:19.038  1918  3977 D SLM-SRV-SLAService: checktemp temperature = 38645 temperature_average = 38687 isPerformanceMode = false thermal_enable_slm = true
+02-09 18:08:19.219  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-204878356} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.219  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 64224, dst4: /34.54.84.110, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB09641080002002236546E1C000280050001000600000006000200FAE000000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-204878356} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.225  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1936117343} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.225  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 51264, dst4: /34.54.84.110, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB09641080002002236546E1C000280050001000600000006000200C84000000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1936117343} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.236  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-710455432} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.236  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 51262, dst4: /20.50.73.8, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB0964108000200143249081C000280050001000600000006000200C83E00000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-710455432} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.240  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1296351257} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.240  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 49672, dst4: /20.50.73.8, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB0964108000200143249081C000280050001000600000006000200C20800000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1296351257} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.261  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-191484672} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.261  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 51264, dst4: /34.54.84.110, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB09641080002002236546E1C000280050001000600000006000200C84000000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-191484672} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.271  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1569427942} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.271  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 49672, dst4: /20.50.73.8, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB0964108000200143249081C000280050001000600000006000200C20800000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1569427942} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.277  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-116615010} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.277  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 64224, dst4: /34.54.84.110, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB09641080002002236546E1C000280050001000600000006000200FAE000000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-116615010} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.283  3908  3930 E NetlinkUtils: receiveNetlinkAck, errmsg=NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1733028148} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} }
+02-09 18:08:19.283  3908  3930 W Tethering: [BpfCoordinator] WARN Failed to update conntrack entry (proto: 6, src4: /10.176.150.65, srcPort: 51262, dst4: /20.50.73.8, dstPort: 443), msg: 50000000000105010100000000000000020000003400018014000180080001000AB0964108000200143249081C000280050001000600000006000200C83E00000600030001BB00000800070000069780, e: android.system.ErrnoException: NetlinkErrorMessage{ nlmsghdr{StructNlMsgHdr{ nlmsg_len{100}, nlmsg_type{2()}, nlmsg_flags{0()}, nlmsg_seq{1}, nlmsg_pid{-1733028148} }}, nlmsgerr{StructNlMsgErr{ error{-2}, msg{StructNlMsgHdr{ nlmsg_len{80}, nlmsg_type{256()}, nlmsg_flags{261(NLM_F_REQUEST|NLM_F_ACK|NLM_F_ROOT)}, nlmsg_seq{1}, nlmsg_pid{0} }} }} } failed: ENOENT (No such file or directory)
+02-09 18:08:19.442  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=1
+02-09 18:08:19.442  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 1
+02-09 18:08:19.442  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=1
+02-09 18:08:19.442  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 1
+02-09 18:08:19.442  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:19.445  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:19.453  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:19.453  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:19.453  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:19.618  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:20.445  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:20.445  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:20.445  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:20.445  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:20.445  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:20.445  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:20.445  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:20.447  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:20.456  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:20.457  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:20.457  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:20.619  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:20.737  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:20.750  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:20.750  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:20.750  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:20.926  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:22.742  5100  5372 I BtGatt.ScanManager: msg.what = MSG_CHECK_SCAN_STATUS, msg.arg1 = CHECK_BACKGROUND_TIMEOUT
+02-09 18:08:24.291  3908  3930 I Tethering: [BpfCoordinator] onAlertReached
+02-09 18:08:24.746  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:24.761  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:24.762  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:24.762  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:24.933  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:25.415  1918  2365 D HeapUsage Monitor: HeapAllocSize : 121MB; monitorSize : 500MB
+02-09 18:08:25.466  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:25.467  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:25.470  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:25.470  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:25.470  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:25.470  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:25.470  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:25.470  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:25.473  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87307979 mSleepTimeMs=49964438 mIdleTimeMs=889792 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955471, 1134320, 559893, 657518],mRxTimeMs=34864312}]}
+02-09 18:08:25.473  3990  3990 E PhoneInterfaceManager: queryModemActivityInfo: invalid response
+02-09 18:08:25.473  3990  3990 D TelephonyManager: requestModemActivityInfo: Sending result to app: ModemActivityInfo{ mTimestamp=87307979 mSleepTimeMs=49964438 mIdleTimeMs=889792 mActivityStatsTechSpecificInfo=[{mRat=UNKNOWN,mFrequencyRange=UNKNOWN,mTxTimeMs[]=[428548, 955471, 1134320, 559893, 657518],mRxTimeMs=34864312}]}
+02-09 18:08:25.478  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:25.478  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:25.479  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:25.504  1918  2003 D HighMemoryManager: Java Memory used=115M max=512M. is system: true
+02-09 18:08:25.504  1918  2003 V HighMemoryManager: Check mem usage finished! Next check delay: 0
+02-09 18:08:25.640  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:26.468  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:26.468  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:26.468  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:26.468  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:26.468  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:26.468  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:26.469  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:26.470  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:26.480  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:26.480  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:26.480  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:26.643  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:28.755  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:28.773  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:28.773  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:28.773  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:28.943  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:29.042  1918  3977 D SLM-SRV-SLAService: checktemp temperature = 38590 temperature_average = 38651 isPerformanceMode = false thermal_enable_slm = true
+02-09 18:08:32.490  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:32.490  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:32.490  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:32.490  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=3
+02-09 18:08:32.490  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 3
+02-09 18:08:32.490  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 1
+02-09 18:08:32.490  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:32.492  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:32.503  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:32.503  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:32.503  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:32.662  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:32.758  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:32.770  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:32.770  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:32.770  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:32.947  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:34.712  1918  3964 I NetworkBoostStatusManager: handle: 107
+02-09 18:08:34.715  3990  4057 E PhoneAdapter: get ntnphones failed, exception: java.lang.IllegalStateException: Default phones haven't been made yet!
+02-09 18:08:34.716  1918  3964 D SLM-SRV-SLAService: isModemSingnalStrengthStatus = 0
+02-09 18:08:36.502  3990  3990 D DynamicService: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:36.502  3990  3990 D DynamicService: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:36.502  3990  3990 D DynamicService: listeners is null or md controller is disable!!!
+02-09 18:08:36.502  3990  3990 D DynamicService_WifiBt: PhoneStateListener.onDataActivity: direction=0
+02-09 18:08:36.502  3990  3990 D DynamicService_WifiBt: modem or radio power state change,messageType: 128 state: 0
+02-09 18:08:36.502  3990  3990 D WifiSarController: onStateChanged: type = 2, value = 0
+02-09 18:08:36.502  3997  4240 D NetworkController.MobileSignalController(2): notifyListeners: mFeatureRelayData=false
+02-09 18:08:36.504  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:36.513  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:36.513  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:36.514  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.
+02-09 18:08:36.673  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:36.760  3997  3997 D ArtChoreographerMonitor: invoke error.
+02-09 18:08:36.773  1289  1289 E vendor.qti.hardware.perf@2.2-service: Unknown params
+02-09 18:08:36.774  1289  1289 E ANDR-PERF-DATA-POOL: EventDataPool is Full
+02-09 18:08:36.774  1289  1289 E ANDR-PERF-MPCTL: perf request submission limit reached.

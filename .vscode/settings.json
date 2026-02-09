@@ -1,0 +1,19 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "java.import.gradle.home": "",
+  "kotlin.languageServer.enabled": true,
+  "kotlin.compiler.jvm.target": "11",
+  "files.exclude": {
+    "**/.gradle": true,
+    "**/build": true,
+    "**/.idea": true
+  },
+  "java.project.sourcePaths": [
+    "android/app/src/main/java"
+  ],
+  "java.project.referencedLibraries": [
+    "android/app/build/intermediates/**/*.jar"
+  ]
+}
