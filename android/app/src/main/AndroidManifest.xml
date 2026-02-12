@@ -2,70 +2,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- ================= PERMISSIONS ================= -->
-
-<<<<<<< HEAD
-    <!-- Internet (React Native, Metro, APIs) -->
-    <uses-permission android:name="android.permission.INTERNET" />
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-feature android:name="android.hardware.camera" android:required="false" />
-    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-=======
->>>>>>> 557c779 (Initial commit)
-
-    <!-- Camera (ARCore requirement) -->
-=======
-    <!-- ✅ CAMERA - Required for ARCore -->
->>>>>>> 2fcb6ff (somedone)
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <!-- ✅ INTERNET - Required for React Native -->
     <uses-permission android:name="android.permission.INTERNET" />
-    
-    <!-- Network state check (optional but useful) -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
-    <!-- ================= FEATURES ================= -->
-
-    <!-- ✅ ARCore support (REQUIRED) -->
     <uses-feature
         android:name="android.hardware.camera.ar"
         android:required="true" />
 
-    <!-- Camera hardware (REQUIRED) -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <!-- Autofocus (optional, but recommended) -->
     <uses-feature
         android:name="android.hardware.camera.autofocus"
         android:required="false" />
 
-
-    <!-- ================= APPLICATION ================= -->
-
     <application
-<<<<<<< HEAD
-      android:name=".MainApplication"
-      android:label="@string/app_name"
-      android:icon="@mipmap/ic_launcher"
-      android:roundIcon="@mipmap/ic_launcher_round"
-      android:allowBackup="false"
-<<<<<<< HEAD
-      android:theme="@style/AppTheme"
-      android:usesCleartextTraffic="${usesCleartextTraffic}"
-      android:supportsRtl="true">
-=======
-      android:theme="@style/AppTheme">
->>>>>>> 557c779 (Initial commit)
-      <activity
-        android:name=".MainActivity"
-=======
         android:name=".MainApplication"
->>>>>>> 93febe5 (phase-2)
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -74,12 +28,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
-        <!-- ✅ ARCore REQUIRED metadata -->
         <meta-data
             android:name="com.google.ar.core"
             android:value="required" />
-
-        <!-- ================= MAIN ACTIVITY (React Native) ================= -->
 
         <activity
             android:name=".MainActivity"
@@ -89,15 +40,12 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
             android:windowSoftInputMode="adjustResize">
 
-            <!-- Main launcher intent -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-
-        <!-- ================= AR DETECTION ACTIVITY ================= -->
 
         <activity
             android:name="com.holofindx.ar.ARActivity"
@@ -107,8 +55,6 @@
             android:screenOrientation="portrait"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-
-        <!-- ================= DIAGNOSTIC TEST ACTIVITY (Optional) ================= -->
 
         <activity
             android:name="com.holofindx.DiagnosticTestActivity"

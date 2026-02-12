@@ -1,60 +1,20 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-buildscript {
-    ext {
-        // Build Config for Android 16 (Baklava/SDK 36)
-        buildToolsVersion = "36.0.0"
-        minSdkVersion = 24
-        compileSdkVersion = 36
-        targetSdkVersion = 36
-
-        // CRITICAL: NDK for RN 0.82
-        ndkVersion = "27.1.12297006"
-
-        // Kotlin for RN 0.82
-        kotlinVersion = "2.0.21"
-    }
-
-=======
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-=======
->>>>>>> 2fcb6ff (somedone)
 buildscript {
     ext {
         buildToolsVersion = "34.0.0"
-        minSdkVersion = 21
+        minSdkVersion = 24
         compileSdkVersion = 34
         targetSdkVersion = 34
-
         ndkVersion = "23.1.7779620"
         kotlinVersion = "1.9.22"
     }
-<<<<<<< HEAD
->>>>>>> 557c779 (Initial commit)
-=======
 
->>>>>>> 93febe5 (phase-2)
     repositories {
         google()
         mavenCentral()
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-   dependencies {
-    classpath("com.android.tools.build:gradle:8.7.3")
-
-    classpath("com.facebook.react:react-native-gradle-plugin")
-    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21")
-}
-}
-
-apply plugin: "com.facebook.react.rootproject"
-=======
-=======
-
->>>>>>> 93febe5 (phase-2)
     dependencies {
         classpath("com.android.tools.build:gradle:8.2.2")
         classpath("com.facebook.react:react-native-gradle-plugin")
@@ -69,35 +29,22 @@ allprojects {
     }
 }
 
-/**
- * ============================================================
- * AGP 8.x + React Native GLOBAL FIXES (DO NOT SPLIT THIS BLOCK)
- * ============================================================
- */
 subprojects { subproject ->
     afterEvaluate {
-
-        // ----------------------------------------------------
-        // 1️⃣ Enable BuildConfig for ALL Android modules
-        // ----------------------------------------------------
         if (subproject.plugins.hasPlugin("com.android.library") ||
             subproject.plugins.hasPlugin("com.android.application")) {
-
             subproject.android.buildFeatures {
                 buildConfig true
             }
         }
 
-        // ----------------------------------------------------
-        // 2️⃣ Inject namespace for old RN libraries (AGP 8)
-        // ----------------------------------------------------
         if (subproject.plugins.hasPlugin("com.android.library")) {
             def androidExt = subproject.extensions.findByName("android")
             if (androidExt != null && androidExt.namespace == null) {
                 def manifestFile = file("${subproject.projectDir}/src/main/AndroidManifest.xml")
                 if (manifestFile.exists()) {
                     def text = manifestFile.getText("UTF-8")
-                    def matcher = text =~ /package="([^"]+)"/
+                    def matcher = text =~ /package=\"([^\"]+)\"/
                     if (matcher.find()) {
                         androidExt.namespace = matcher.group(1)
                     }
@@ -105,9 +52,6 @@ subprojects { subproject ->
             }
         }
 
-        // ----------------------------------------------------
-        // 3️⃣ FORCE Java + Kotlin to JVM 11 (ALL modules)
-        // ----------------------------------------------------
         subproject.tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
             kotlinOptions {
                 jvmTarget = "11"
@@ -123,4 +67,5 @@ subprojects { subproject ->
         }
     }
 }
->>>>>>> 557c779 (Initial commit)
+
+apply plugin: "com.facebook.react.rootproject"
