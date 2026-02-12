@@ -21,7 +21,6 @@ export default function SettingsScreen({ navigation }) {
       <Text style={styles.item}>• About</Text>
 =======
       <StatusBar barStyle="light-content" backgroundColor="#0b0b0b" />
-
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.title}>Settings</Text>
